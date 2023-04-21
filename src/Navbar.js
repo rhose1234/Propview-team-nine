@@ -23,11 +23,11 @@ const Navbar = () => {
           </div>
           <div className="offcanvas-body">
             <div className="navbar-nav ms-auto  ">
-            <a className="text-dark fw-bold nav-item nav-link active" aria-current="page" href="./">Home</a>
-              <a className="text-dark fw-bold nav-item nav-link" href="#about-us">About Us</a>
-              <a className="text-dark fw-bold nav-item nav-link" href="#courses">Our Courses</a>
-              <a className="text-dark fw-bold nav-item nav-link" href="#FAQs">FAQs</a>
-              <a className="text-dark fw-bold nav-item nav-link" target='_blank' rel='noreferrer' href="https://api.whatsapp.com/send?phone=2349066647086&text=Hello,%20I%27ll%20love%20to%20join%20the%20Adiz%20Academy%20Community.%20My%20name%20is%20---">Join Our Community</a>
+            <a className="text-dark nav-item nav-link active" aria-current="page" href="./">Home</a>
+              <a className="text-dark nav-item nav-link" href="#search">Search</a>
+              <a className="text-dark nav-item nav-link" href="#properties">Properties</a>
+              <a className="text-dark nav-item nav-link" href="#stories">Stories</a>
+              <a className="text-dark nav-item nav-link" rel='' href="./">Sign-In / Sign-Up</a>
             </div>
           </div>
         </div>
