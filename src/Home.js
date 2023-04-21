@@ -44,6 +44,43 @@ const Homepage = () => {
                     
             </section>
 
+            <section id="search">
+            <div className="container pt-5">
+            <div className="search-form p-5">
+            <div className="row">
+
+            <div className="col-lg-5 col-md-12">
+            <div class="input-group mb-3  w-100 h-100">
+
+  <input type="text" className="form-width w-100 h-100" aria-label=" input" aria-describedby="inputGroup-sizing-lg" placeholder='Search for property'>
+    </input>
+    </div>
+    </div>
+
+    <div className="col-lg-5 col-md-12">
+    <div className="input-group mb-3 w-100 h-100">
+    
+  <select className="form-width w-100 h-100 " type="select"  aria-label="input" >
+    <option value="1" className='text-secondary m-5 p-5'>Search by:</option>
+
+    <option value="2">Price</option>
+    <option value="3">Location</option>
+    <option value="4">Company</option>
+    <option value="5">Type</option>
+  </select>
+ 
+  </div>
+  </div>
+
+  <div className="col-lg-2 col-md-12">
+  <button className='btn-black text-white w-100 h-100 btn-md btn-outline-black'>Search</button>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+          
 
 
 
@@ -243,8 +280,8 @@ const Homepage = () => {
                            
                             <div className='col-lg-4 mb-lg-0 mb-4' data-aos="flip-up" data-aos-duration="800">
                                 <Card className='px-1 py-5 text-start m-auto'>
-                                <div className='col-12 px-4 mt-3'>
-                                                    <img src={ testimony } className='w-25 me-3' alt="" />
+                                <div className='col-12 px-4 mt-3 d-block align-items-center'>
+                                                    <img src={ testimony } className='w-50 me-3' alt="" />
                                                     <small className='fw-bold'>Oluwaseyi Ajewole</small>
                                                 </div>
                                     <Card.Body className='d-flex align-items-center m-auto'>
