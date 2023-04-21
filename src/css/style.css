@@ -97,7 +97,7 @@ span .navbar-toggler-icon {
 
 /*state when navbar is collapsed*/
 .offcanvas-header .btn-close {
-  color: #009F0F !important;
+  color: #E35F00 !important;
 }
 
 
@@ -114,9 +114,17 @@ span .navbar-toggler-icon {
 
 
 .nav-link:hover {
-  color: #009F0F !important ;
+  color: #E35F00 !important ;
 }
 
+.signup-btn{
+  padding: 10px !important;
+  border: 2px solid #E35F00 !important;
+  color: #E35F00 !important;
+  margin-left: 30px !important;
+  width: 120px !important;
+  text-align: center;
+}
 
 
 .active {
@@ -177,26 +185,6 @@ span .navbar-toggler-icon {
   text-align: center;
   margin-bottom: 30px;
 }
-
-
-.carousel-indicators [data-bs-target]{
-  box-sizing: content-box;
-  flex: 0 1 auto;
-  width: 10px !important;
-  height: 10px !important;
-  border-radius: 100% !important;
-  border: 5px solid #009F0F !important;
-  margin-right: 5px !important;
-  margin-left: 3px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: #FFE500 !important ;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  opacity: 1;
-  transition:  0.6s ease;
-}
-
 
 .testimonials span{
   color: #009F0F !important;

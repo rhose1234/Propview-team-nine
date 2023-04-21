@@ -12,7 +12,6 @@ import card7 from './img/card7.svg';
 import card8 from './img/card8.svg';
 import card9 from './img/card9.svg';
 import testimony from './img/testimony.svg';
-
 import Footer from './Footer';
 import Navbar from './Navbar';
 import AOS from 'aos';
