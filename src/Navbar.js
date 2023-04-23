@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-xl navbar-dark fixed-top">
       <div className="container m-3">
-        <a href="./" className="navbar-brand fw-bold">
-          <img src="" alt="logo" />
-        </a>
+
+         <a href="./" className="navbar-brand fw-bold mt-4"><img src={logo} alt="logo"/></a>
+
 
         <button
           className="navbar-toggler"
@@ -36,6 +36,7 @@ const Navbar = () => {
                 {" "}
                 <img src="" alt="logo" />{" "}
               </a>
+
             </h5>
             <button
               type="button"
@@ -45,6 +46,7 @@ const Navbar = () => {
             ></button>
           </div>
           <div className="offcanvas-body">
+
             <div className="navbar-nav ms-auto  ">
               <a
                 className="text-dark nav-item nav-link active"
@@ -65,6 +67,7 @@ const Navbar = () => {
               <a className="text-dark nav-item nav-link" rel="" href="./">
                 Sign-In / Sign-Up
               </a>
+
             </div>
           </div>
         </div>
