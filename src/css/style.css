@@ -117,7 +117,7 @@ span .navbar-toggler-icon {
   color: #E35F00 !important ;
 }
 
-.signup-btn{
+.nav-link.signup{
   padding: 10px !important;
   border: 2px solid #E35F00 !important;
   color: #E35F00 !important;
