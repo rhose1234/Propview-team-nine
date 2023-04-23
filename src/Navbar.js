@@ -22,14 +22,14 @@ const Navbar = () => {
             <button type="button" className="btn-close btn-close-black" data-bs-dismiss="offcanvas"  aria-label="Close" ></button>
           </div>
           <div className="offcanvas-body">
-            <div className="navbar-nav ms-auto  ">
-            <a className="text-dark fw-bold nav-item nav-link active" aria-current="page" href="./">Home</a>
-              <a className="text-dark fw-bold nav-item nav-link" href="#search">Search</a>
-              <a className="text-dark fw-bold nav-item nav-link" href="#properties">Properties</a>
-              <a className="text-dark fw-bold nav-item nav-link" href="#stories">Stories</a>
-              
-              <a className=" signup-btn text-dark fw-bold nav-item nav-link" target='_blank' rel='noreferrer' href="">Sign-up</a>
-             
+            <div className="navbar-nav ms-auto  "> 
+            <a className="text-dark nav-item nav-link active" aria-current="page" href="./">Home</a>
+              <a className="text-dark nav-item nav-link" href="#search">Search</a>
+              <a className="text-dark nav-item nav-link" href="#properties">Properties</a>
+              <a className="text-dark nav-item nav-link" href="#stories">Stories</a>
+              <a className="text-dark nav-item nav-link" rel='' href="./">Sign-In / Sign-Up</a>
+
+           
             </div>
           </div>
         </div>
