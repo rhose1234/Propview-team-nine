@@ -12,7 +12,6 @@ import card7 from './img/card7.svg';
 import card8 from './img/card8.svg';
 import card9 from './img/card9.svg';
 import testimony from './img/testimony.svg';
-
 import Footer from './Footer';
 import Navbar from './Navbar';
 import AOS from 'aos';
@@ -45,6 +44,43 @@ const Homepage = () => {
                     
             </section>
 
+            <section id="search">
+            <div className="container pt-5">
+            <div className="search-form p-5">
+            <div className="row">
+
+            <div className="col-lg-5 col-md-12">
+            <div class="input-group mb-3  w-100 h-100">
+
+  <input type="text" className="form-width w-100 h-100" aria-label=" input" aria-describedby="inputGroup-sizing-lg" placeholder='Search for property'>
+    </input>
+    </div>
+    </div>
+
+    <div className="col-lg-5 col-md-12">
+    <div className="input-group mb-3 w-100 h-100">
+    
+  <select className="form-width w-100 h-100 " type="select"  aria-label="input" >
+    <option value="1" className='text-secondary m-5 p-5'>Search by:</option>
+
+    <option value="2">Price</option>
+    <option value="3">Location</option>
+    <option value="4">Company</option>
+    <option value="5">Type</option>
+  </select>
+ 
+  </div>
+  </div>
+
+  <div className="col-lg-2 col-md-12">
+  <button className='btn-black text-white w-100 h-100 btn-md btn-outline-black'>Search</button>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+          
 
 
 
@@ -221,74 +257,6 @@ const Homepage = () => {
                 </div>
                 
             
-            </section>
-
-
-
-            
-
-
-
-
-            <section className='testi pt-lg-5 mt-lg-5 pt-2 pb-5 mb-5 m-lg-0 m-2'>
-                <div className='container'>
-                    <div className='justify-content-center text-center m-auto'>
-                        <div className="m-auto pb-3 mt-3 mb-4">
-                                <h1 className='display-4 fw-bold'>What Our Clients Are <span>Saying</span></h1>
-                                
-                         </div>
-
-                         
-
-                         <div className='row justify-content-center'>
-                           
-                            <div className='col-lg-4 mb-lg-0 mb-4' data-aos="flip-up" data-aos-duration="800">
-                                <Card className='px-1 py-5 text-start m-auto'>
-                                <div className='col-12 px-4 mt-3'>
-                                                    <img src={ testimony } className='w-25 me-3' alt="" />
-                                                    <small className='fw-bold'>Oluwaseyi Ajewole</small>
-                                                </div>
-                                    <Card.Body className='d-flex align-items-center m-auto'>
-                                        <Card.Text> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, officiis cumque pariatur perferendis perspiciatis in quasi nesciunt! Culpa pariatur quo assumenda cupiditate, voluptates illum quia dignissimos totam necessitatibus perferendis vel!
-                                        Cumque provident quisquam corporis minima quas possimus velit ipsum doloribus? Vel expedita, quo error totam, laboriosam quae harum vitae voluptatem mollitia fugit debitis repellat neque adipisci dignissimos minus, fuga odio.
-                                            </Card.Text>
-                                           
-                                    </Card.Body>
-                                    
-                                                
-                                               
-                                </Card>
-                            </div>
-
-                            
-
-                         </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <section className='started pt-5 mt-5 mb-5 pb-5 m-lg-0 m-2' data-aos="flip-left" data-aos-duration="1500">
-                <div className='container pb-5 mb-5'>
-
-                    <Card className='col-lg-10 justify-content-center text-start m-auto'>
-                        <Card.Body>
-
-                            <div className='py-5 px-lg-5 px-3 m-lg-5'>
-                                <h1 className="mb-3 display-4 fw-bold">Join Our Community</h1>
-                                <p className="mt-4 mb-5 lead">Our Community is where we share more intimate contents with our members. 
-                                We share major announcements and helpful Contents to help you grow and learn.⚡</p>
-
-                                <a target='_blank' rel='noreferrer' href="https://api.whatsapp.com/send?phone=2349066647086&text=Hello,%20I%27ll%20love%20to%20join%20the%20Adiz%20Academy%20Community.%20My%20name%20is%20---"><button type="submit" className="btn py-3 btn-light btn-join">Join Us Now</button></a>
-                                
-                            </div>
-                                                
-                        </Card.Body>
-                         
-                    </Card>
-
-                </div>
-
             </section>
 
             <Footer/>
