@@ -1,6 +1,6 @@
 import React from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import "swiper/css";
@@ -13,7 +13,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 const ImageCarousel = () => {
   return (
-    <>
+<div>
       <h2 className="carousel-page-head">WHAT OUR CLIENTS ARE SAYING</h2>
       <Swiper
         cssMode={true}
@@ -61,8 +61,10 @@ const ImageCarousel = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+      </div>
+    
   );
 };
+
 
 export default ImageCarousel;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import logo from './img/logo.png';
+import logo from './img/logo.svg';
 
 const Navbar = () => {
   return (
@@ -33,8 +33,8 @@ const Navbar = () => {
           <div className="offcanvas-header">
             <h5 className="offcanvas-title text-dark" id="offcanvasNavbarLabel">
               <a href="./" className="navbar-brand fw-bold">
-                {" "}
-                <img src="" alt="logo" />{" "}
+                {logo}
+                <img src="" alt="logo" />{logo}
               </a>
 
             </h5>
