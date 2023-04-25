@@ -2,7 +2,7 @@
   "name": "Propview",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Propview.com.ng",
+  "homepage": "https://rhose1234.github.io/Propview-team-nine/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -18,16 +18,21 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-multi-carousel": "^2.8.3",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.9.0",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
+    "swiper": "^9.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
